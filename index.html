@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsBridge - Professional News Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 100 100">
+                    <path fill="#2563eb" d="M10 50 L50 10 L90 50 L50 90 Z"/>
+                    <path fill="#1e3a8a" d="M30 50 L50 30 L70 50 L50 70 Z"/>
+                </svg>
+                <h1>NewsBridge</h1>
+            </div>
+            <nav class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="india">India</button>
+                <button class="filter-btn" data-filter="world">World</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="news-container" id="newsContainer"></main>
+    
+    <div class="pagination" id="pagination"></div>
+
+    <footer class="footer">
+        <p>Crafted with precision by <strong>Samant Kumar</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
